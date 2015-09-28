@@ -11,7 +11,7 @@ namespace BareKnuckleJson {
     
     public static class Json {
         
-        public static string Serialize<G>(G g){
+        public static string Serialize(Object g){
             
             using(var sw = new StringWriter()){
                 InnerSerialize(g, sw);
@@ -20,7 +20,13 @@ namespace BareKnuckleJson {
             
         }
         
-        static void InnerSerialize<G>(G g, StringWriter sw){
+        static void InnerSerialize(Object g, StringWriter sw){
+
+            if (g == null)
+            {
+              sw.Write("null");
+              return;
+            }
 
             var valueType = g as ValueType;
 
