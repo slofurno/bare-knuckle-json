@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>BareKnuckleJson</id>
+    <version>0.5.4</version>
+    <title>BareKnuckleJson</title>
+    <authors>Steven LoFurno</authors>
+    <owners>Steven LoFurno</owners>
+    <licenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html</licenseUrl>
+    <projectUrl>https://github.com/slofurno/bare-knuckle-json</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A minimal json serializer</description>
+    <releaseNotes>pre-alpha release</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>json csharp</tags>
+  </metadata>
+  <files>
+	<file src="bin\Release\dnx451\BareKnuckleJson.dll" target="lib\dnx451\BareKnuckleJson.dll" />
+	<file src="bin\Release\dnx451\BareKnuckleJson.pdb" target="lib\dnx451\BareKnuckleJson.pdb" />
+	<file src="bin\Release\dnx451\BareKnuckleJson.xml" target="lib\dnx451\BareKnuckleJson.xml" />
+	<file src="bin\Release\dnxcore50\BareKnuckleJson.dll" target="lib\dnxcore50\BareKnuckleJson.dll" />
+	<file src="bin\Release\dnxcore50\BareKnuckleJson.pdb" target="lib\dnxcore50\BareKnuckleJson.pdb" />
+	<file src="bin\Release\dnxcore50\BareKnuckleJson.xml" target="lib\dnxcore50\BareKnuckleJson.xml" />
+    </files>
+</package>
