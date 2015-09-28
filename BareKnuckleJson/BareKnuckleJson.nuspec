@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>BareKnuckleJson</id>
-    <version>0.5.4</version>
+    <version>0.5.5</version>
     <title>BareKnuckleJson</title>
     <authors>Steven LoFurno</authors>
     <owners>Steven LoFurno</owners>
@@ -21,5 +21,6 @@
 	<file src="bin\Release\dnxcore50\BareKnuckleJson.dll" target="lib\dnxcore50\BareKnuckleJson.dll" />
 	<file src="bin\Release\dnxcore50\BareKnuckleJson.pdb" target="lib\dnxcore50\BareKnuckleJson.pdb" />
 	<file src="bin\Release\dnxcore50\BareKnuckleJson.xml" target="lib\dnxcore50\BareKnuckleJson.xml" />
+    <file src="bin\Release\net45\BareKnuckleJson.dll" target="lib\net45\BareKnuckleJson.dll" />
     </files>
 </package>
